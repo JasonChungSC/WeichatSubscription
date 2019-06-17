@@ -1060,4 +1060,41 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
   [INFO] [2019-06-10 11:56:54][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
   [INFO] [2019-06-10 11:56:54][com.jason.test.TestMyBatis]{"age":24,"id":1,"password":"345","userName":"≤‚ ‘"}
   [INFO] [2019-06-10 11:56:54][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6ab778a: startup date [Mon Jun 10 11:56:53 CST 2019]; root of context hierarchy
+  [INFO] [2019-06-11 13:20:09][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+  [INFO] [2019-06-11 13:20:09][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Jun 11 13:20:09 CST 2019]; root of context hierarchy
+  [INFO] [2019-06-11 13:20:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2019-06-11 13:20:09][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2019-06-11 13:20:09][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2019-06-11 13:20:09][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 499 ms
+  [INFO] [2019-06-11 13:20:09][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+  [INFO] [2019-06-11 13:20:09][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Jun 11 13:20:09 CST 2019]; parent: Root WebApplicationContext
+  [INFO] [2019-06-11 13:20:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+  [INFO] [2019-06-11 13:20:10][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2019-06-11 13:20:10][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.jason.maven.web.weichat_subscription.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+  [INFO] [2019-06-11 13:20:10][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+  [INFO] [2019-06-11 13:20:10][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 459 ms
+  [WARN] [2019-06-11 13:20:32][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+  [INFO] [2019-06-11 14:08:14][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+  [INFO] [2019-06-11 14:08:14][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue Jun 11 14:08:14 CST 2019]; root of context hierarchy
+  [INFO] [2019-06-11 14:08:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2019-06-11 14:08:15][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2019-06-11 14:08:15][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2019-06-11 14:08:15][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 468 ms
+  [INFO] [2019-06-11 14:08:15][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+  [INFO] [2019-06-11 14:08:15][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Jun 11 14:08:15 CST 2019]; parent: Root WebApplicationContext
+  [INFO] [2019-06-11 14:08:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+  [INFO] [2019-06-11 14:08:15][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2019-06-11 14:08:15][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.jason.maven.web.weichat_subscription.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+  [INFO] [2019-06-11 14:08:15][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+  [INFO] [2019-06-11 14:08:16][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 673 ms
+  [INFO] [2019-06-17 09:56:39][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2019-06-17 09:56:39][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@7946e1f4: startup date [Mon Jun 17 09:56:39 CST 2019]; root of context hierarchy
+  [INFO] [2019-06-17 09:56:39][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2019-06-17 09:56:39][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2019-06-17 09:56:40][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@272ed83b: startup date [Mon Jun 17 09:56:40 CST 2019]; root of context hierarchy
+  [INFO] [2019-06-17 09:56:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2019-06-17 09:56:40][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2019-06-17 09:56:40][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2019-06-17 09:56:43][com.jason.test.TestMyBatis]{"age":24,"id":1,"password":"345","userName":"≤‚ ‘"}
+  [INFO] [2019-06-17 09:56:43][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@7946e1f4: startup date [Mon Jun 17 09:56:39 CST 2019]; root of context hierarchy
   

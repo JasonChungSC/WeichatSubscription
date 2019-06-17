@@ -21,7 +21,7 @@ import com.jason.maven.web.weichat_subscription.service.IUserTService;
 public class UserController {
 	private static Logger log = LoggerFactory.getLogger(UserController.class);
 	@Resource
-	private IUserTService userService = null;
+	private IUserTService userService;
 
 	// /user/test?id=1
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
@@ -29,7 +29,7 @@ public class UserController {
 		int userId = Integer.parseInt(request.getParameter("id"));
 		
 		UserT user = userService.getUserById(userId);
-
+		
 		log.debug(user.toString());
 		model.addAttribute("user", user);
 		return "index";
